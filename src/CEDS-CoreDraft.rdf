@@ -679,6 +679,7 @@
         <rdfs:subPropertyOf rdf:resource="http://ceds.ed.gov/owl#hasInterpersonalRelationship"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#Person"/>
         <rdfs:range rdf:resource="http://ceds.ed.gov/owl#InterpersonalRelationship"/>
+        <rdfs:range rdf:resource="http://ceds.ed.gov/owl#Person"/>
         <rdfs:label>Partner</rdfs:label>
     </owl:ObjectProperty>
     
