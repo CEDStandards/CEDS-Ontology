@@ -547,7 +547,6 @@
         <rdfs:subPropertyOf rdf:resource="http://ceds.ed.gov/owl#hasInterpersonalRelationship"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#Person"/>
         <rdfs:range rdf:resource="http://ceds.ed.gov/owl#InterpersonalRelationship"/>
-        <rdfs:range rdf:resource="http://ceds.ed.gov/owl#Person"/>
         <rdfs:label>Husband</rdfs:label>
     </owl:ObjectProperty>
     
@@ -680,7 +679,6 @@
         <rdfs:subPropertyOf rdf:resource="http://ceds.ed.gov/owl#hasInterpersonalRelationship"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#Person"/>
         <rdfs:range rdf:resource="http://ceds.ed.gov/owl#InterpersonalRelationship"/>
-        <rdfs:range rdf:resource="http://ceds.ed.gov/owl#Person"/>
         <rdfs:label>Partner</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1120,7 +1118,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#Organization"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#Person"/>
-        <rdfs:range rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:range rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <dc:creator>Common Education Data Standards</dc:creator>
     </owl:ObjectProperty>
     
@@ -1586,10 +1584,11 @@
     <!-- http://ceds.ed.gov/owl#isContactPublished -->
 
     <owl:ObjectProperty rdf:about="http://ceds.ed.gov/owl#isContactPublished">
-        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#OrganizationTelephone"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#PersonTelephone"/>
         <rdfs:range rdf:resource="http://ceds.ed.gov/owl#DoNotPublishIndicator"/>
+        <dc:creator>Common Education Data Standards</dc:creator>
     </owl:ObjectProperty>
     
 
@@ -1704,12 +1703,13 @@
     
 
 
-    <!-- http://ceds.ed.gov/owl#isPerkinsLEP -->
+    <!-- http://ceds.ed.gov/owl#isPerkinsEnglishLearner -->
 
-    <owl:ObjectProperty rdf:about="http://ceds.ed.gov/owl#isPerkinsLEP">
+    <owl:ObjectProperty rdf:about="http://ceds.ed.gov/owl#isPerkinsEnglishLearner">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#Person"/>
         <rdfs:range rdf:resource="http://ceds.ed.gov/owl#PerkinsEnglishLearnerStatus"/>
+        <dc:creator>Common Education Data Standards</dc:creator>
     </owl:ObjectProperty>
     
 
@@ -2009,7 +2009,7 @@
     <!-- http://ceds.ed.gov/owl#verifiedPersonalInformationWith -->
 
     <owl:ObjectProperty rdf:about="http://ceds.ed.gov/owl#verifiedPersonalInformationWith">
-        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#PersonAddress"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#PersonIdentification"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#PersonName"/>
@@ -2493,11 +2493,11 @@
     
 
 
-    <!-- http://ceds.ed.gov/owl#EmailAddress -->
+    <!-- http://ceds.ed.gov/owl#ElectronicMailAddress -->
 
-    <owl:DatatypeProperty rdf:about="http://ceds.ed.gov/owl#EmailAddress">
+    <owl:DatatypeProperty rdf:about="http://ceds.ed.gov/owl#ElectronicMailAddress">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -3131,7 +3131,7 @@
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#DoNotPublishIndicator"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#DriversLicenseIdentification"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EconomicDisadvantageStatus"/>
-        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EmergencyContactIndicator"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EnglishLearnerStatus"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#FacilityProfitStatus"/>
@@ -3243,7 +3243,7 @@
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#DoNotPublishIndicator"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#DriversLicenseIdentification"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EconomicDisadvantageStatus"/>
-        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EmergencyContactIndicator"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#EnglishLearnerStatus"/>
         <rdfs:domain rdf:resource="http://ceds.ed.gov/owl#FacilityProfitStatus"/>
@@ -4236,10 +4236,16 @@
     
 
 
+    <!-- http://ceds.ed.gov/owl#ElectronicMailAddress -->
+
+    <owl:Class rdf:about="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
+    
+
+
     <!-- http://ceds.ed.gov/owl#ElectronicMailAddressType_Home -->
 
     <owl:Class rdf:about="http://ceds.ed.gov/owl#ElectronicMailAddressType_Home">
-        <rdfs:subClassOf rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:subClassOf rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <dc:creator>Common Education Data Standards</dc:creator>
         <dc:description>Home/personal is the type of electronic mail (e-mail) address listed for a person or organization.</dc:description>
         <dc:identifier>000089_Home</dc:identifier>
@@ -4251,7 +4257,7 @@
     <!-- http://ceds.ed.gov/owl#ElectronicMailAddressType_Organizational -->
 
     <owl:Class rdf:about="http://ceds.ed.gov/owl#ElectronicMailAddressType_Organizational">
-        <rdfs:subClassOf rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:subClassOf rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <dc:creator>Common Education Data Standards</dc:creator>
         <dc:description>Organizational (school) address is the type of electronic mail (e-mail) address listed for a person or organization.</dc:description>
         <dc:identifier>000089_Organizational</dc:identifier>
@@ -4263,7 +4269,7 @@
     <!-- http://ceds.ed.gov/owl#ElectronicMailAddressType_Other -->
 
     <owl:Class rdf:about="http://ceds.ed.gov/owl#ElectronicMailAddressType_Other">
-        <rdfs:subClassOf rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:subClassOf rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <dc:creator>Common Education Data Standards</dc:creator>
         <dc:description>Other is the type of electronic mail (e-mail) address listed for a person or organization.</dc:description>
         <dc:identifier>000089_Other</dc:identifier>
@@ -4275,18 +4281,12 @@
     <!-- http://ceds.ed.gov/owl#ElectronicMailAddressType_Work -->
 
     <owl:Class rdf:about="http://ceds.ed.gov/owl#ElectronicMailAddressType_Work">
-        <rdfs:subClassOf rdf:resource="http://ceds.ed.gov/owl#EmailAddress"/>
+        <rdfs:subClassOf rdf:resource="http://ceds.ed.gov/owl#ElectronicMailAddress"/>
         <dc:creator>Common Education Data Standards</dc:creator>
         <dc:description>Work is the type of electronic mail (e-mail) address listed for a person or organization.</dc:description>
         <dc:identifier>000089_Work</dc:identifier>
         <rdfs:label>Work</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://ceds.ed.gov/owl#EmailAddress -->
-
-    <owl:Class rdf:about="http://ceds.ed.gov/owl#EmailAddress"/>
     
 
 
@@ -9869,45 +9869,6 @@
     
 
 
-    <!-- http://ceds.ed.gov/owl#GradeLevelsApproved_ABE -->
-
-    <owl:NamedIndividual rdf:about="http://ceds.ed.gov/owl#GradeLevelsApproved_ABE">
-        <rdf:type rdf:resource="http://ceds.ed.gov/owl#GradeLevel"/>
-        <sortOrder>21</sortOrder>
-        <dc:creator>Common Education Data Standards</dc:creator>
-        <dc:description>Adult Basic Education is a grade offered by the education institution.</dc:description>
-        <dc:identifier>001926</dc:identifier>
-        <rdfs:label>Adult Basic Education</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ceds.ed.gov/owl#GradeLevelsApproved_ASE -->
-
-    <owl:NamedIndividual rdf:about="http://ceds.ed.gov/owl#GradeLevelsApproved_ASE">
-        <rdf:type rdf:resource="http://ceds.ed.gov/owl#GradeLevel"/>
-        <sortOrder>22</sortOrder>
-        <dc:creator>Common Education Data Standards</dc:creator>
-        <dc:description>Adult Secondary Education is a grade offered by the education institution.</dc:description>
-        <dc:identifier>001926</dc:identifier>
-        <rdfs:label>Adult Secondary Education</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ceds.ed.gov/owl#GradeLevelsApproved_AdultESL -->
-
-    <owl:NamedIndividual rdf:about="http://ceds.ed.gov/owl#GradeLevelsApproved_AdultESL">
-        <rdf:type rdf:resource="http://ceds.ed.gov/owl#GradeLevel"/>
-        <sortOrder>23</sortOrder>
-        <dc:creator>Common Education Data Standards</dc:creator>
-        <dc:description>Adult English as a Second Language is a grade offered by the education institution.</dc:description>
-        <dc:identifier>001926</dc:identifier>
-        <rdfs:label>Adult English as a Second Language</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://ceds.ed.gov/owl#GradeLevelsApproved_IT -->
 
     <owl:NamedIndividual rdf:about="http://ceds.ed.gov/owl#GradeLevelsApproved_IT">
@@ -10276,7 +10237,7 @@
     <owl:NamedIndividual rdf:about="http://ceds.ed.gov/owl#HighestLevelOfEducationCompleted_00788">
         <rdf:type rdf:resource="http://ceds.ed.gov/owl#HighestLevelOfEducationCompleted"/>
         <dc:creator>Common Education Data Standards</dc:creator>
-        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">00788</dc:identifier>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">000141</dc:identifier>
         <rdfs:label>Preschool</rdfs:label>
     </owl:NamedIndividual>
     
@@ -11686,7 +11647,7 @@
         <dc:creator>Common Education Data Standards</dc:creator>
         <dc:description>4-1-4 or similar plan</dc:description>
         <dc:identifier>000729</dc:identifier>
-        <rdfs:label>4/1/04</rdfs:label>
+        <rdfs:label>4-1-4</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -21804,13 +21765,17 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://ceds.ed.gov/owl#EmailAddress">
+    <rdf:Description rdf:about="http://ceds.ed.gov/owl#ElectronicMailAddress">
         <dc:creator>Common Education Data Standards</dc:creator>
-        <rdfs:label>Email Address</rdfs:label>
+        <dc:description>The numbers, letters, and symbols used to identify an electronic mail (e-mail) user within the network to which the person or organization belongs.</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">000088</dc:identifier>
+        <rdfs:label>Electronic Mail Address</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://ceds.ed.gov/owl#PersonOtherName">
         <dc:creator>Common Education Data Standards</dc:creator>
-        <rdfs:label>Person Other Name</rdfs:label>
+        <dc:description>Previous, alternate or other names or aliases associated with the person.</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">000206</dc:identifier>
+        <rdfs:label>Other Name</rdfs:label>
     </rdf:Description>
     
 
