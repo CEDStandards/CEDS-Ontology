@@ -7,6 +7,8 @@ The purpose of the ontology is to describe CEDS at the most granular level possi
 
 ## First Draft Release
 
+Comment Period - August 31, 2023 through November 29, 2023
+
 This first release is a draft of some of the core Organization, Person, Membership elements expressed through Classes and Properties. This draft period will last 90 days after which we will assess the comments received, make changes based on those comments and release an updated version for review. During this initial draft period, we are looking for feedback specifically related to the following things:
 1. Overall - We welcome any comments related to this project. To comment, simply open an [issue](https://github.com/CEDStandards/CEDS-Ontology/issues). Commenting does require a GitHub account, but you can create one for free. Feel free to comment about anything, ask questions, and respond to comments other stakeholders have made.
 2. Relationships - Do they make sense? Are we missing any "in between" relationships - As an example. We could have said a Person (Class) isMember (Object Property) of an Organization (Class), but we determined that many additional elements will be needed to describe the Membership itself. When you need to describe something with multiple additional elements or options, it is best made into a class. Thus we have in this model that a Person (Class) isMember (Object Property) to Membership (Class) and that Membership (Class) isMemberOf (Object Property) Organization (Class). This allows us to still relate a Person to an Organization but through a class called Membership through which we can describe things like Entry Dates, Exit Dates and Full Time Equivalency. 
@@ -19,6 +21,11 @@ This first release is a draft of some of the core Organization, Person, Membersh
 ## Resources
 
 The primary ontology files are listed in the [src](https://github.com/CEDStandards/CEDS-Ontology/tree/main/src) folder. These are machine-readable documents. As such, they can be difficult to read without a resource created to read them. The CEDS team used a free resource called [Protege](https://protege.stanford.edu/) developed by Stanford to create the ontology. If your organization allows the download and installation of this resource, it provides a way to view the ontology in a more user friendly format. Additional resources are avialable in the the [doc](https://github.com/CEDStandards/CEDS-Ontology/tree/main/doc) folder. These include a [guide](https://github.com/CEDStandards/CEDS-Ontology/blob/main/doc/CEDS%20Ontology%20Guide%20Version%2011%20Draft%20August%202023.pdf) which goes into a little more detail about the various entities that exist within the ontology and some example diagrams to explain relationships and a [spreadsheet](https://github.com/CEDStandards/CEDS-Ontology/raw/main/doc/CEDSOntologyCoreDraftV11.0.0.0.xlsx) of the entities along with metadata about each entity.
+
+Join us for an informational webinar on Thursday, September 14, 2023 at 1:00 PM ET to learn more about the CEDS Ontology, how it can be leveraged by the community, and how to provide feedback on the current draft and future development over the coming months. [Register Here](https://teams.microsoft.com/registration/XpJBepf2fE--wwRwiHrHUg,97-roEC9oE-eCWYz8tPXGA,tM5WGkm4qE6ZUdfpscRz9Q,I41Z_52310qEEirHiiVpew,bryABe5_7Ey4nt9OIFGxEA,pmrbtU6vj0WaYoZxQPJb3Q?mode=read&tenantId=7a41925e-f697-4f7c-bec3-0470887ac752)
+
+Additional resources may be added for reviewing the ontology throughout the 90 day review period. Feel free to provide any you create for the community to use.
+
 
 ## Versioning
 
