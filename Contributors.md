@@ -4,7 +4,7 @@ The CEDS Ontology work began in May of 2022 through a workgroup called the CEDS 
 
 [South Carolina Department of Education](https://ed.sc.gov/)
 
-[Michigan's Center for Educational Performance and Infomration (CEPI)](https://www.michigan.gov/cepi/)
+[Michigan's Center for Educational Performance and Information (CEPI)](https://www.michigan.gov/cepi/)
 
 [State of Vermont Agency of Education](https://education.vermont.gov/)
 
