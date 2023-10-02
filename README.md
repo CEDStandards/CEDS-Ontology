@@ -5,6 +5,8 @@ The CEDS Ontology is a new way of looking at CEDS. The purpose of an ontology is
 
 The purpose of the ontology is to describe CEDS at the most granular level possible. From this machine-readable understanding, additional resources can be created such as JSON, JSON-LD, XML, and a host of other machine readable standards. It will also become easier to link CEDS to other ontologies and standards through the use of equivalencies (an indication when one standard's element is equivalent to another standard's element) making translation a much more intuative process and, again, machine-readable. We will also be able to indicate where CEDS ends and another standard begins allowing for the adoption of multiple standards in the same ecosystem.
 
+Watch the informational webinar that was presented on Thursday, September 14, 2023: [CEDS Ontology Webinar Recording](https://www.youtube.com/watch?v=aJ5F_6-l5m0)
+
 ## First Draft Release
 
 Comment Period - August 31, 2023 through November 29, 2023
@@ -21,8 +23,6 @@ This first release is a draft of some of the core Organization, Person, Membersh
 ## Resources
 
 The primary ontology files are listed in the [src](https://github.com/CEDStandards/CEDS-Ontology/tree/main/src) folder. These are machine-readable documents. As such, they can be difficult to read without a resource created to read them. The CEDS team used a free resource called [Protege](https://protege.stanford.edu/) developed by Stanford to create the ontology. If your organization allows the download and installation of this resource, it provides a way to view the ontology in a more user friendly format. Additional resources are avialable in the the [doc](https://github.com/CEDStandards/CEDS-Ontology/tree/main/doc) folder. These include a [guide](https://github.com/CEDStandards/CEDS-Ontology/blob/main/doc/CEDS%20Ontology%20Guide%20Version%2011%20Draft%20August%202023.pdf) which goes into a little more detail about the various entities that exist within the ontology and some example diagrams to explain relationships and a [spreadsheet](https://github.com/CEDStandards/CEDS-Ontology/raw/main/doc/CEDSOntologyCoreDraftV11.0.0.0.xlsx) of the entities along with metadata about each entity.
-
-Join us for an informational webinar on Thursday, September 14, 2023 at 1:00 PM ET to learn more about the CEDS Ontology, how it can be leveraged by the community, and how to provide feedback on the current draft and future development over the coming months. [Register Here](https://teams.microsoft.com/registration/XpJBepf2fE--wwRwiHrHUg,97-roEC9oE-eCWYz8tPXGA,tM5WGkm4qE6ZUdfpscRz9Q,IBifzvPbJ06fcCvpaJ7sRw,orw7QIerxkSk0MjKRmE1cg,H9uwKbohHES0B3r8IBl-fQ?mode=read&tenantId=7a41925e-f697-4f7c-bec3-0470887ac752)
 
 Additional resources may be added for reviewing the ontology throughout the 90 day review period. Feel free to provide any you create for the community to use.
 
