@@ -16,6 +16,8 @@ The CEDS Ontology work began in May of 2022 through a workgroup called the CEDS 
 
 [Coleridge Initiative](https://coleridgeinitiative.org/)
 
+[Credential Engine](https://credentialengine.org/)
+
 [Bardic Systems](https://www.bardicsystems.com/)
 
 [Cedar Labs](https://www.cedarlabs.com/)
