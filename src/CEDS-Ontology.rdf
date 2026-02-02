@@ -3563,7 +3563,7 @@
 		<rdfs:subClassOf rdf:resource="http://ceds.ed.gov/terms#C200407" />
 		<dc:creator>Common Education Data Standards</dc:creator>
 		<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#token">C200325</dc:identifier>
-		<rdfs:comment>Information on a person participating in a Title III limited English proficiency education program.</rdfs:comment>
+		<rdfs:comment>Information on a person participating in a Title III English Learner education program.</rdfs:comment>
 		<rdfs:label>Program Participation Title III English Learner</rdfs:label>
 		<skos:notation>ProgramParticipationTitleIIIEnglishLearner</skos:notation>
 	</rdfs:Class>
@@ -32677,7 +32677,7 @@ Added DES context "Program Identifier, Organization Identifier, Organization Ide
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200306"/>
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200325"/>
 		<skos:notation>hasProgramParticipationTitleIIIEnglishLearner</skos:notation>
-		<dc:description>References information on a person participating in a Title III limited English proficiency education program.</dc:description>
+		<dc:description>References information on a person participating in a Title III English Learner education program.</dc:description>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 				<changeDescription>Created definition to match the class definition it references.</changeDescription>
