@@ -124,7 +124,7 @@
 		<skos:notation>changeNew</skos:notation>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
-				<changeDescription>Added new class to support structured local usage metadata</changeDescription>
+				<changeDescription>Added new property to support change history metadata.</changeDescription>
 				<changeVersion>14.0.0.0</changeVersion>
 				<issueLink>https://github.com/CEDStandards/CEDS-Ontology/issues/111</issueLink>
 				<changeNew rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeNew>
@@ -140,13 +140,29 @@
 		<skos:notation>changeUpdated</skos:notation>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
-				<changeDescription>Added new class to support structured local usage metadata</changeDescription>
+				<changeDescription>Added new property to support change history metadata.</changeDescription>
 				<changeVersion>14.0.0.0</changeVersion>
 				<issueLink>https://github.com/CEDStandards/CEDS-Ontology/issues/111</issueLink>
 				<changeNew rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeNew>
 			</editHistoryEntry>
 		</editHistory>
-	</rdf:Property>	
+	</rdf:Property>
+	<rdf:Property rdf:about="http://ceds.ed.gov/terms#changePropertyAddedToClass">
+		<dc:creator>Common Education Data Standards</dc:creator>
+		<rdfs:comment>An indication of whether this class had a new or previously existing property added in the associated Change Version.</rdfs:comment>
+		<rdfs:label>Change Property Added To Class</rdfs:label>
+		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#editHistoryEntry"/>
+		<schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+		<skos:notation>changePropertyAddedToClass</skos:notation>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Added new property to support change history metadata.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Ontology/issues/111</issueLink>
+				<changeNew rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeNew>
+			</editHistoryEntry>
+		</editHistory>
+	</rdf:Property>		
 	<!-- Local Usage Class to structure Local Usage Entries -->
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#localUsageEntry">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -377,6 +393,15 @@
 		<rdfs:comment>Data collections track the details of data submissions as part of an organized, time-bound collection event, typically governed by specific deadlines and requirements, to ensure accurate and timely data reporting in a structured system.</rdfs:comment>
 		<rdfs:label>Data Collection</rdfs:label>
 		<skos:notation>DataCollection</skos:notation>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Record Start Date Time and Record End Date Time properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/78</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdf:Property rdf:about="http://ceds.ed.gov/terms#P001990">
 		<dc:creator>Common Education Data Standards</dc:creator>
