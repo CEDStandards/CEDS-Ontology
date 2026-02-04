@@ -1655,8 +1655,8 @@
 		<rdfs:label>Early Learning Quality Initiative</rdfs:label>
 		<rdfs:subClassOf rdf:resource="http://ceds.ed.gov/terms#C000000" />
 		<skos:notation>EarlyLearningQualityInitiative</skos:notation>
-		<dc:description>Information about participation and scoring of quality retings for an early learning organization.</dc:description>
-		<skos:definition>Information about participation and scoring of quality retings for an early learning organization.</skos:definition>
+		<dc:description>Information about participation and scoring of quality ratings for an early learning organization.</dc:description>
+		<skos:definition>Information about participation and scoring of quality ratings for an early learning organization.</skos:definition>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200117">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -20661,6 +20661,8 @@ Based on Ed-Fi use case.</changeDescription>
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200163" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200012" />
 		<skos:notation>hasAccessibilityFeature</skos:notation>
+		<dc:description>References information defining the type of design elements or functionalities integrated into products, services, or environments to ensure equitable access for all individuals, aiming to eliminate barriers and facilitate ease of use.</dc:description>
+		<skos:definition>References information defining the type of design elements or functionalities integrated into products, services, or environments to ensure equitable access for all individuals, aiming to eliminate barriers and facilitate ease of use.</skos:definition>
 		<editHistory rdf:parseType="Collection"> 
 			<editHistoryEntry> 	
 				<changeDescription>Changed from Has Assessment Accommodation to Has Accessibility Feature</changeDescription> 	
@@ -24549,6 +24551,8 @@ It is similar to "PESC Award Level Type" and "Academic Award Level Conferred" bu
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200417" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200157" />
 		<skos:notation>hasIndividualizedProgram</skos:notation>
+		<dc:description>References information on the type, design, dates, and participation of a student in an individualized program.</dc:description>
+		<skos:definition>References information on the type, design, dates, and participation of a student in an individualized program.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry> 	
 				<changeDescription>Added Has Individualized Program as an object property of Program Participation (C200407)</changeDescription> 	
@@ -32036,6 +32040,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200103" />
 		<skos:notation>hasEarlyLearningClassSection</skos:notation>
+		<dc:description>References information about a cohort of children receiving services together, or in some cases individually, usually for a predetermined amount of time, with at least one assigned primary teacher.</dc:description>
+		<skos:definition>References information about a cohort of children receiving services together, or in some cases individually, usually for a predetermined amount of time, with at least one assigned primary teacher.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 				<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32052,6 +32058,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200108" />
 		<skos:notation>hasEarlyLearningFacilityLicensing</skos:notation>
+		<dc:description>References information about the status and attributes of the facility license for an early learning organization.</dc:description>
+		<skos:definition>References information about the status and attributes of the facility license for an early learning organization.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32085,6 +32093,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200111" />
 		<skos:notation>hasEarlyLearningOrganizationAvailability</skos:notation>
+		<dc:description>References information on the early learning organization's availability to include time, groups served, facilities, and environment.</dc:description>
+		<skos:definition>References information on the early learning organization's availability to include time, groups served, facilities, and environment.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32101,6 +32111,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200112" />
 		<skos:notation>hasEarlyLearningOrganizationFunds</skos:notation>
+		<dc:description>References information about sources of funds received by an early learning organization.</dc:description>
+		<skos:definition>References information about sources of funds received by an early learning organization.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32117,6 +32129,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200113" />
 		<skos:notation>hasEarlyLearningOrganizationMonitoring</skos:notation>
+		<dc:description>References information about events such as site visits by which an early learning organization is monitored, such as for compliance.</dc:description>
+		<skos:definition>References information about events such as site visits by which an early learning organization is monitored, such as for compliance.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32133,6 +32147,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200115" />
 		<skos:notation>hasEarlyLearningProgramLicensing</skos:notation>
+		<dc:description>References information about the status and attributes of the licensing for an early learning program.</dc:description>
+		<skos:definition>References information about the status and attributes of the licensing for an early learning program.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32149,6 +32165,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200093" />
 		<skos:notation>hasEarlyLearningProgramTypeOffered</skos:notation>
+		<dc:description>References information about the type(s) of early childhood programs offered.</dc:description>
+		<skos:definition>References information about the type(s) of early childhood programs offered.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32165,6 +32183,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200116" />
 		<skos:notation>hasEarlyLearningQualityInitiative</skos:notation>
+		<dc:description>References information about participation and scoring of quality ratings for an early learning organization.</dc:description>
+		<skos:definition>References information about participation and scoring of quality ratings for an early learning organization.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32181,6 +32201,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200117" />
 		<skos:notation>hasEarlyLearningQualityRatingImprovement</skos:notation>
+		<dc:description>References information about an early learning organization's Quality Rating and Improvement System (QRIS) attributes.</dc:description>
+		<skos:definition>References information about an early learning organization's Quality Rating and Improvement System (QRIS) attributes.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -32197,6 +32219,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200110" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200118" />
 		<skos:notation>hasEarlyLearningServicePartner</skos:notation>
+		<dc:description>References information about a service partner to an early learning organization.</dc:description>
+		<skos:definition>References Information about a service partner to an early learning organization.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
@@ -34421,6 +34445,8 @@ Added DES context "Program Identifier, Organization Identifier, Organization Ide
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200306"/>
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200375"/>
 		<skos:notation>hasWorkforceProgramParticipation</skos:notation>
+		<dc:description>References information about instruction and/or services provided to a person through a workforce and/or an employment development program.</dc:description>
+		<skos:definition>References information about instruction and/or services provided to a person through a workforce and/or an employment development program.</skos:definition>
 		<editHistory rdf:parseType="Collection"> 
 			<editHistoryEntry> 	
 				<changeDescription>Name changed from Workforce Program Participation After Exit.</changeDescription> 	
@@ -39214,6 +39240,8 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200164" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200417" />
 		<skos:notation>hasIndividualizedProgramEligibilityDetermination</skos:notation>
+		<dc:description>References information that defines an assessment of a student's eligibility to receive individualized program services or accommodations such as through and IEP or 504 plan.</dc:description>
+		<skos:definition>References information that defines an assessment of a student's eligibility to receive individualized program services or accommodations such as through and IEP or 504 plan.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 				<changeDescription>New</changeDescription> 
@@ -39228,6 +39256,8 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200417" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200399" />
 		<skos:notation>hasEligibilityDetermination</skos:notation>
+		<dc:description>References information about an event used to determine a learner's eligibility to participate in a program or receive services.</dc:description>
+		<skos:definition>References information about an event used to determine a learner's eligibility to participate in a program or receive services.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 				<changeDescription>New</changeDescription> 
@@ -39242,6 +39272,8 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200239" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200401" />
 		<skos:notation>hasOrganizationIndirectCostRate</skos:notation>
+		<dc:description>References information about the an organizations indirect cost rate.</dc:description>
+		<skos:definition>References information about the an organizations indirect cost rate.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 				<changeDescription>New</changeDescription> 
@@ -39256,6 +39288,8 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200012" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200400" />
 		<skos:notation>hasAccessibilityFeatureRelationship</skos:notation>
+		<dc:description>References information about the relationship between two accessibility features.</dc:description>
+		<skos:definition>References information about the relationship between two accessibility features.</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 				<changeDescription>New</changeDescription> 
@@ -39844,6 +39878,8 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200275" />
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200418" />
 		<skos:notation>hasPersonDeath</skos:notation>
+		<dc:description>References information related to the death of a person</dc:description>
+		<skos:definition>References information related to the death of a person</skos:definition>
 		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 				<changeDescription>New property created for Person Death</changeDescription>
