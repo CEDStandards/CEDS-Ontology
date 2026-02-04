@@ -1325,6 +1325,15 @@
 		<skos:notation>CredentialAward</skos:notation>
 		<dc:description>Information about the award of a credential to a person or organization.</dc:description>
 		<skos:definition>Information about the award of a credential to a person or organization.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Credential Award Status Type, Credential Award Status Date, Credential Award Identifier, and Has Credential Award Identification System properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1033</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200080">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2079,6 +2088,15 @@
 		<skos:notation>Incident</skos:notation>
 		<dc:description>The details for an incident involving a student or school.</dc:description>
 		<skos:definition>The details for an incident involving a student or school.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Shooting Incident Indicator, Has Incident Responsibility Staff Indicator, and Has Harassment or Bullying Religion Type properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1057</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200156">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2097,6 +2115,15 @@
 		<skos:notation>IndividualizedProgram</skos:notation>
 		<dc:description>Information on the type, design, dates, and participation of a student in an individualized program.</dc:description>
 		<skos:definition>Information on the type, design, dates, and participation of a student in an individualized program.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Program Participation Start Date and Program Participation Exit Date properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/945</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200158">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2268,6 +2295,15 @@
 		<skos:notation>Job</skos:notation>
 		<dc:description>An entity that represent any type of job.</dc:description>
 		<skos:definition>An entity that represent any type of job.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Evaluation Required Indicator property was added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/952</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200176">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2394,6 +2430,15 @@
 		<skos:notation>K12School</skos:notation>
 		<dc:description>Information specific to K12 Schools. (Organization and related tables have properties that are common.)</dc:description>
 		<skos:definition>Information specific to K12 Schools. (Organization and related tables have properties that are common.)</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Magnet or Special Program Emphasis Type property was added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1062</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200200">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2421,7 +2466,7 @@
 		<skos:notation>K12SchoolStatus</skos:notation>
 		<dc:description>The collection of status values for a K12 school.</dc:description>
 		<skos:definition>The collection of status values for a K12 school.</skos:definition>
-	</rdfs:Class>
+	</rdfs:Class>	
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200207">
 		<rdfs:subClassOf rdf:resource="http://ceds.ed.gov/terms#C200406" />
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2430,6 +2475,15 @@
 		<skos:notation>K12StaffAssignment</skos:notation>
 		<dc:description>Describes a person's assignment to a K12 organization.</dc:description>
 		<skos:definition>Describes a person's assignment to a K12 organization.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Title III Language Instruction Indicator property was added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/957</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200208">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2475,6 +2529,15 @@
 		<skos:notation>K12StudentCohort</skos:notation>
 		<dc:description>Information on the cohort for a K12 student.</dc:description>
 		<skos:definition>Information on the cohort for a K12 student.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has EDFacts Cohort Graduation Status property was added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/824</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200214">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2700,6 +2763,15 @@
 		<skos:notation>LocalEducationAgencyFederalReporting</skos:notation>
 		<dc:description>Federal reporting status values and counts for an LEA.</dc:description>
 		<skos:definition>Federal reporting status values and counts for an LEA.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Interscholastic Sports and Interscholastic Teams properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1055</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200191">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2772,6 +2844,15 @@
 		<skos:notation>LocationAddress</skos:notation>
 		<dc:description>Location that contains a address, city, state, zip.</dc:description>
 		<skos:definition>Location that contains a address, city, state, zip.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Canadian Province Abbreviation property was added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/678</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200257">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -2907,6 +2988,15 @@
 		<skos:notation>ProgramParticipation</skos:notation>
 		<dc:description>A specific type of Membership that represents a student's involvement in a program offered by an educational institution. This includes linking a student to particular programs such as Title I, Title III, and other similar initiatives, capturing elements such as the start and end dates of the involvement, the specific program details, and the nature of the services or support provided. The concept encompasses various aspects of the student's participation, such as eligibility criteria, progress, and outcomes related to the program.</dc:description>
 		<skos:definition>A specific type of Membership that represents a student's involvement in a program offered by an educational institution. This includes linking a student to particular programs such as Title I, Title III, and other similar initiatives, capturing elements such as the start and end dates of the involvement, the specific program details, and the nature of the services or support provided. The concept encompasses various aspects of the student's participation, such as eligibility criteria, progress, and outcomes related to the program.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has English Learner Exited Status and Has Individualized Program properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/958</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200408">
 		<rdfs:subClassOf rdf:resource="http://ceds.ed.gov/terms#C200257"/>
@@ -2998,6 +3088,13 @@
 		<dc:description>An organized group of one or more people with particular purpose. </dc:description>
 		<skos:definition>An organized group of one or more people with particular purpose. </skos:definition>
 		<editHistory rdf:parseType="Collection"> 
+			<editHistoryEntry>
+				<changeDescription>Has CRDC Justice Facility Type and Has Justice Facility Indicator properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1050</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
 			<editHistoryEntry> 	
 				<changeDescription>Added class to the CEDS Ontology.</changeDescription> 	
 				<changeVersion>13</changeVersion> 
@@ -3093,6 +3190,15 @@
 		<skos:notation>OrganizationFederalAccountability</skos:notation>
 		<dc:description>Information on the status of the organization on various federal accountability measures.</dc:description>
 		<skos:definition>Information on the status of the organization on various federal accountability measures.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has School Quality or Student Success Indicator Type  and Has Comprehensive Support and Improvement Identification Type properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/260</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200251">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -3300,6 +3406,15 @@
 		<skos:notation>Person</skos:notation>
 		<dc:description>A human being, alive or deceased, as recognized by each jurisdiction’s legal definitions.</dc:description>
 		<skos:definition>A human being, alive or deceased, as recognized by each jurisdiction’s legal definitions.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Person Death property was added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/922</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200276">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -3390,6 +3505,15 @@
 		<skos:notation>PersonDigitalAccess</skos:notation>
 		<dc:description>Information related to digitial accessiblity for a person.</dc:description>
 		<skos:definition>Information related to digitial accessiblity for a person.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Wi-Fi Enabled Device Need Indicator, Has Wi-Fi Enabled Device Received Indicator, Has Hotspot Need Indicator, and Has Hotspot Received Indicator properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1052</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200284">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -3849,6 +3973,15 @@
 		<skos:notation>ProfessionalDevelopmentActivity</skos:notation>
 		<dc:description>An activity designed for the purpose of developing someone professionally.</dc:description>
 		<skos:definition>An activity designed for the purpose of developing someone professionally.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Professional Development Activity Approval Start Date and Professional Development Activity Approval End Date properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1032</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200312">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -3885,6 +4018,15 @@
 		<skos:notation>Program</skos:notation>
 		<dc:description>A system of services, opportunities, or projects, designed to meet academic or non-academic needs.</dc:description>
 		<skos:definition>A system of services, opportunities, or projects, designed to meet academic or non-academic needs.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Service Charge Indicator and Has Preschool Daily Length properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1061</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200316">
 		<rdfs:subClassOf rdf:resource="http://ceds.ed.gov/terms#C200407" />
@@ -3939,6 +4081,15 @@
 		<skos:notation>ProgramParticipationNeglected</skos:notation>
 		<dc:description>Information on a person participating in a neglected or delinquent student education program.</dc:description>
 		<skos:definition>Information on a person participating in a neglected or delinquent student education program.</skos:definition>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>Has Neglected or Delinquent Long Term Status and Has Neglected or Delinquent Program Enrollment Subpart properties were added to this class.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/850</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+				<changePropertyAddedToClass rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changePropertyAddedToClass>
+			</editHistoryEntry>
+		</editHistory>
 	</rdfs:Class>
 	<rdfs:Class rdf:about="http://ceds.ed.gov/terms#C200322">
 		<rdfs:subClassOf rdf:resource="http://ceds.ed.gov/terms#C200407" />
