@@ -39569,7 +39569,7 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<rdfs:label>Death Date</rdfs:label>
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200418" />
 		<schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#date" />
-		<skos:notation>Deathdate</skos:notation>
+		<skos:notation>DeathDate</skos:notation>
 		<dc:description>The year, month, and day on which a person died.</dc:description>
 		<textFormat>YYYY-MM-DD</textFormat>
 		<skos:definition>The year, month, and day on which a person died.</skos:definition>
@@ -39579,10 +39579,6 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 				<changeVersion>14.0.0.0</changeVersion>
 				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/922</issueLink>
 				<changeNew rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeNew>
-			</editHistoryEntry>
-		<editHistoryEntry> 	
-				<changeDescription>Added element to DES contexts to support Adult Education Staff and other person domain needs</changeDescription> 	
-				<changeVersion>10</changeVersion> 
 			</editHistoryEntry>
 		</editHistory>
 	</rdf:Property>
