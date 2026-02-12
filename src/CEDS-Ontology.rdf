@@ -14907,7 +14907,7 @@ Based on Ed-Fi use case.</changeDescription>
 		<dc:creator>Common Education Data Standards</dc:creator>
 		<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#token">P000055</dc:identifier>
 		<rdfs:label>Course Identifier</rdfs:label>
-		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200252" />
+		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200072" />
 		<schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
 		<skos:notation>CourseIdentifier</skos:notation>
 		<dc:description>The actual code that identifies the organization of subject matter and related learning experiences provided for the instruction of students.</dc:description>
@@ -14916,6 +14916,11 @@ Based on Ed-Fi use case.</changeDescription>
 		<textFormat>Alphanumeric</textFormat>
 		<skos:definition>The actual code that identifies the organization of subject matter and related learning experiences provided for the instruction of students.</skos:definition>
 		<editHistory rdf:parseType="Collection"> 
+			<editHistoryEntry>
+				<changeDescription>Corrected the domain. Changed from Organization to Course</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+			</editHistoryEntry>
 			<editHistoryEntry> 	
 				<changeDescription>Add new DES location</changeDescription> 	
 				<changeVersion>12</changeVersion> 
