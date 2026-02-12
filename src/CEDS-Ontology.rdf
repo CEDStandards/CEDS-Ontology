@@ -22378,6 +22378,12 @@ Based on Ed-Fi use case.</changeDescription>
 		<skos:notation>hasCalendarEventType</skos:notation>
 		<dc:description>A type of scheduled or unscheduled calendar event.</dc:description>
 		<editHistory rdf:parseType="Collection"> 
+			<editHistoryEntry>
+					<changeDescription>New named individual (option set): Professional Development Day created for Calendar Event Type. This addition was approved for V12 but was not added in 12 or 13.</changeDescription>
+					<changeVersion>14.0.0.0</changeVersion>
+					<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/524</issueLink>
+					<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+			</editHistoryEntry>
 			<editHistoryEntry> 	
 				<changeDescription>Added new option to existing option set</changeDescription> 	
 				<changeVersion>12</changeVersion> 
@@ -46215,6 +46221,14 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<skos:definition>A type of scheduled or unscheduled calendar event.</skos:definition>
 		<skos:notation>CalendarEventType</skos:notation>
 		<skos:prefLabel>Calendar Event Type</skos:prefLabel>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>New named individual (option set): Professional Development Day created for Calendar Event Type. This addition was approved for V12 but was not added in 12 or 13.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/524</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+			</editHistoryEntry>
+		</editHistory>
 	</owl:Class>
 	<owl:Class rdf:about="http://ceds.ed.gov/terms#C000605">
 		<dc:creator>Common Education Data Standards</dc:creator>
@@ -104033,6 +104047,26 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<skos:inScheme rdf:resource="http://ceds.ed.gov/terms#C000603" />
 		<skos:notation>InstructionalDay</skos:notation>
 		<skos:prefLabel>Instructional day</skos:prefLabel>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://ceds.ed.gov/terms#NI000603928296">
+		<dc:creator>Common Education Data Standards</dc:creator>
+		<dc:description>Professional development day is specified as the type of scheduled or unscheduled calendar event. A Professional development day is a teacher only day that is primarily for the purpose of providing professional development.</dc:description>
+		<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#token">NI000603928296</dc:identifier>
+		<rdf:type rdf:resource="http://ceds.ed.gov/terms#C000603" />
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		<rdfs:label>Professional development day</rdfs:label>
+		<skos:definition>Professional development day is specified as the type of scheduled or unscheduled calendar event. A Professional development day is a teacher only day that is primarily for the purpose of providing professional development. </skos:definition>
+		<skos:inScheme rdf:resource="http://ceds.ed.gov/terms#C000603" />
+		<skos:notation>ProfessionalDevelopmentDay</skos:notation>
+		<skos:prefLabel>Professional development day</skos:prefLabel>
+		<editHistory rdf:parseType="Collection">
+			<editHistoryEntry>
+				<changeDescription>New named individual (option set) created for Calendar Event Type. This addition was approved for V12 but was not added in 12 or 13.</changeDescription>
+				<changeVersion>14.0.0.0</changeVersion>
+				<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/524</issueLink>
+				<changeNew rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeNew>
+			</editHistoryEntry>
+		</editHistory>
 	</owl:NamedIndividual>
 	<owl:NamedIndividual rdf:about="http://ceds.ed.gov/terms#NI001778128970">
 		<dc:creator>Common Education Data Standards</dc:creator>
