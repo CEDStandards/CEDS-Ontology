@@ -31224,6 +31224,8 @@ The classification of education agencies within the geographic boundaries of a s
 		<rdfs:label>Has Person</rdfs:label>
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200257"/>
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200311"/>
+		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200369"/>
+		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200079"/>
 		<schema:rangeIncludes rdf:resource="http://ceds.ed.gov/terms#C200275"/>
 		<skos:notation>hasPerson</skos:notation>
 		<dc:description>References a human being, alive or deceased, as recognized by each jurisdiction’s legal definitions.</dc:description>
