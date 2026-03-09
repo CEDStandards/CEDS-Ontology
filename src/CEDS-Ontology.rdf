@@ -9103,7 +9103,7 @@ The new wording of the element definition makes it clearer that this entity is a
 		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200406"/>
 		<schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
 		<skos:notation>HourlyWage</skos:notation>
-		<dc:description>Hourly wage associated with the employment or assignment position being reported.</dc:description>
+		<dc:description>Hourly wage associated with the employment position being reported.</dc:description>
 		<minInclusive>0</minInclusive>
 		<textFormat>Numeric</textFormat>
 		<decimalPlaces>2</decimalPlaces>
