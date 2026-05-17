@@ -15565,7 +15565,7 @@ Based on Ed-Fi use case.</changeDescription>
 		<rdfs:label>NCES SIDE Standard Error</rdfs:label>
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200276" />
 		<schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal" />
-		<skos:notation>NCESSIDEStandard Error</skos:notation>
+		<skos:notation>NCESSIDEStandardError</skos:notation>
 		<dc:description>The standard error applied to the National Center for Education Statistics (NCES) spatially interpolated demographic estimate (SIDE).</dc:description>
 		<textFormat>Numeric</textFormat>
 		<skos:definition>The standard error applied to the National Center for Education Statistics (NCES) spatially interpolated demographic estimate (SIDE).</skos:definition>
