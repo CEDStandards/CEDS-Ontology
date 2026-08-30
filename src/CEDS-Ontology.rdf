@@ -10071,7 +10071,7 @@ The new wording of the element definition makes it clearer that this entity is a
 		<dc:creator>Common Education Data Standards</dc:creator>
 		<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#token">P000797</dc:identifier>
 		<rdfs:label>Hourly Wage</rdfs:label>
-		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200405"/>
+		<schema:domainIncludes rdf:resource="http://ceds.ed.gov/terms#C200405"/>
 		<schema:rangeIncludes rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
 		<skos:notation>HourlyWage</skos:notation>
 		<dc:description>Hourly wage associated with the employment position being reported.</dc:description>
@@ -10080,6 +10080,12 @@ The new wording of the element definition makes it clearer that this entity is a
 		<decimalPlaces>2</decimalPlaces>
 		<skos:definition>Hourly wage associated with the employment position being reported.</skos:definition>
 		<editHistory rdf:parseType="Collection"> 
+			<editHistoryEntry> 	
+				<changeDescription>Updated domainIncludes to include "Assignment" (C200406)</changeDescription> 	
+				<changeVersion>14.0.0.0</changeVersion> 
+				<issueLink>https://github.com/CEDStandards/CEDS-Ontology/issues/107</issueLink>
+				<changeUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeUpdated>
+			</editHistoryEntry>
 			<editHistoryEntry> 	
 				<changeDescription>Add new DES location</changeDescription> 	
 				<changeVersion>12</changeVersion> 
@@ -32202,9 +32208,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200103" />
 		<skos:notation>hasEarlyLearningClassSection</skos:notation>
-		<dc:description>References information about a cohort of children receiving services together, or in some cases individually, usually for a predetermined amount of time, with at least one assigned primary teacher.</dc:description>
-		<skos:definition>References information about a cohort of children receiving services together, or in some cases individually, usually for a predetermined amount of time, with at least one assigned primary teacher.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 				<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 				<changeVersion>14.0.0.0</changeVersion>
@@ -32220,9 +32223,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200108" />
 		<skos:notation>hasEarlyLearningFacilityLicensing</skos:notation>
-		<dc:description>References information about the status and attributes of the facility license for an early learning organization.</dc:description>
-		<skos:definition>References information about the status and attributes of the facility license for an early learning organization.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -32255,9 +32255,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200111" />
 		<skos:notation>hasEarlyLearningOrganizationAvailability</skos:notation>
-		<dc:description>References information on the early learning organization's availability to include time, groups served, facilities, and environment.</dc:description>
-		<skos:definition>References information on the early learning organization's availability to include time, groups served, facilities, and environment.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -32273,9 +32270,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200112" />
 		<skos:notation>hasEarlyLearningOrganizationFunds</skos:notation>
-		<dc:description>References information about sources of funds received by an early learning organization.</dc:description>
-		<skos:definition>References information about sources of funds received by an early learning organization.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -32291,9 +32285,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200113" />
 		<skos:notation>hasEarlyLearningOrganizationMonitoring</skos:notation>
-		<dc:description>References information about events such as site visits by which an early learning organization is monitored, such as for compliance.</dc:description>
-		<skos:definition>References information about events such as site visits by which an early learning organization is monitored, such as for compliance.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -32309,9 +32300,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200115" />
 		<skos:notation>hasEarlyLearningProgramLicensing</skos:notation>
-		<dc:description>References information about the status and attributes of the licensing for an early learning program.</dc:description>
-		<skos:definition>References information about the status and attributes of the licensing for an early learning program.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -32327,9 +32315,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200093" />
 		<skos:notation>hasEarlyLearningProgramTypeOffered</skos:notation>
-		<dc:description>References information about the type(s) of early childhood programs offered.</dc:description>
-		<skos:definition>References information about the type(s) of early childhood programs offered.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -32345,9 +32330,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200116" />
 		<skos:notation>hasEarlyLearningQualityInitiative</skos:notation>
-		<dc:description>References information about participation and scoring of quality ratings for an early learning organization.</dc:description>
-		<skos:definition>References information about participation and scoring of quality ratings for an early learning organization.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -32363,9 +32345,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200117" />
 		<skos:notation>hasEarlyLearningQualityRatingImprovement</skos:notation>
-		<dc:description>References information about an early learning organization's Quality Rating and Improvement System (QRIS) attributes.</dc:description>
-		<skos:definition>References information about an early learning organization's Quality Rating and Improvement System (QRIS) attributes.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -32381,9 +32360,6 @@ The classification of education agencies within the geographic boundaries of a s
 		<schema:domainIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200110" />
 		<schema:rangeIncludes rdf:resource="https://w3id.org/CEDStandards/terms/C200118" />
 		<skos:notation>hasEarlyLearningServicePartner</skos:notation>
-		<dc:description>References information about a service partner to an early learning organization.</dc:description>
-		<skos:definition>References Information about a service partner to an early learning organization.</skos:definition>
-		<editHistory rdf:parseType="Collection">
 			<editHistoryEntry>
 					<changeDescription>Changed domain from Organization to Early Learning Organization</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
@@ -129779,12 +129755,11 @@ Corrected the spelling of the word "eligible" in the option set and the NDS RefS
 		<skos:inScheme rdf:resource="https://w3id.org/CEDStandards/terms/C000094" />
 		<skos:notation>01814</skos:notation>
 		<skos:prefLabel>No-Show</skos:prefLabel>
-		<editHistory rdf:parseType="Collection">
 				<editHistoryEntry>
 					<changeDescription>New named individual (option set) created for Enrollment Status</changeDescription>
 					<changeVersion>14.0.0.0</changeVersion>
 					<issueLink>https://github.com/CEDStandards/CEDS-Elements/issues/1039</issueLink>
-					<changeNew rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeNew>
+				<changeNew rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</changeNew>
 			</editHistoryEntry>
 		</editHistory>
 	</owl:NamedIndividual>
